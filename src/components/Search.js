@@ -5,6 +5,7 @@ import 'react-date-range/dist/theme/default.css'
 import {DateRangePicker} from 'react-date-range'
 import {People} from "@material-ui/icons";
 import Button from "@material-ui/core/Button";
+import {Link} from "react-router-dom";
 
 
 const Search = () => {
@@ -37,7 +38,10 @@ const Search = () => {
                 min={0}
                 defaultValue={2}
                 type="number"/>
-                <Button>Search Airbnb</Button>
+                <Link to={'/search'}>
+                    <Button>Search Airbnb</Button>
+                </Link>
+
         </div>
     );
 };

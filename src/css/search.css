@@ -28,7 +28,7 @@
     outline: none;
 }
 
-.search > button {
+.search > a > button {
     position: absolute;
     left: 0;
     top: 480px;
@@ -39,7 +39,7 @@
 
 }
 
-.search > button:hover{
+.search > a > button:hover{
     background-color: white;
     color: #ff7779;
 }
