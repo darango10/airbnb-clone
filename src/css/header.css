@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+    padding: 20px;
+}
+
+.header > img {
+    object-fit: contain;
+    width: 100px;
+    margin-left: 80px;
+}
+
+.header__center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    max-width: fit-content;
+    padding: 10px;
+    height: 30px;
+}
+
+.header__center > input{
+    width: 250px;
+    border: none;
+    outline: none;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
+}
